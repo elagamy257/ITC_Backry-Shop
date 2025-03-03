@@ -248,3 +248,129 @@ nav .nav .navr ul li a{
     clear: both;
 }
 
+/* contact */
+.contact{
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100%;
+    padding: 70px;
+}
+
+.contact .text h2 {
+    color: #303030;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.contact .text p {
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 17px;
+    line-height: 2;
+    margin: 25px 0;
+}
+
+.contact .list i {
+    background-color: #8e7754;
+    text-align: center;
+    width: 35px;
+    height: 25px;
+    border-radius: 100%;
+    padding-top: 8px;
+    margin: 0 10px ;
+}
+
+.footer{
+    background-color: #403D38;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px;
+}
+
+.footer .item{
+    width: 22%;
+}
+
+.footer .item h3{
+    font-family: "Alegreya";
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer .item p {
+    font-family: "Alegreya Sans";
+    color: #888888;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline;
+}
+
+.footer .item li{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer .item .line::after{
+    content: "";
+    position: absolute;
+    background-color: #8888882c;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.footer .item i{
+    color: #969696;
+    padding-right: 12px;
+}
+
+
+
+
+/* Second footer */
+.sec-footer {
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+.sec-footer  p {
+    color: #717273;
+    font-family: "Alegreya Sans";
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.sec-footer .social i {
+    background-color: #484540;
+    width: 40px;
+    height: 30px;
+    border-radius: 100%;
+    color: #8c8a86;
+    padding-top: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.sec-footer  .social .fa-facebook-f:hover {
+    background-color: #0275d8;
+}
+
+.sec-footer  .social .fa-google-plus-g:hover {
+    background-color: #DD4B39;
+}
+
+.sec-footer  .social .fa-linkedin-in:hover {
+    background-color: #007BB5;
+}
+
+.sec-footer  .social .fa-twitter:hover {
+    background-color: #00ACED;
+}
